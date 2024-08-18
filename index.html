@@ -13,6 +13,22 @@
             background-color: #f4f4f4;
             color: #333;
         }
+        .header {
+            background: url('header-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 200px;
+            text-align: center;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -20,10 +36,6 @@
             background: #fff;
             border: 1px solid #ddd;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #444;
         }
         .poem {
             white-space: pre-wrap;
@@ -38,8 +50,10 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="header">
         <h1>Poetry Showcase</h1>
+    </div>
+    <div class="container">
         <div class="poem">
             Today, I wondered where you’ve gone,<br>
             The paths we walked, now overgrown.<br>
@@ -85,6 +99,5 @@
     </div>
 </body>
 </html>
-
 
 
