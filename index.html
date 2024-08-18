@@ -15,6 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            overflow: auto; /* Ensures the page can scroll if content overflows */
         }
         .container {
             max-width: 800px;
@@ -23,6 +24,7 @@
             border: 1px solid #ccc;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            overflow: hidden; /* Ensures no content overflows outside the container */
         }
         .header-image {
             text-align: center;
